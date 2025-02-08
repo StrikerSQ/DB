@@ -2,9 +2,18 @@
   "name": "db",
   "version": "1.0.0",
   "description": "Db",
+  "keywords": [],
+  "homepage": "https://github.com/StrikerSQ/DB#readme",
+  "bugs": {
+    "url": "https://github.com/StrikerSQ/DB/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StrikerSQ/DB.git"
+  },
   "license": "ISC",
   "author": "",
-  "type": "module",
+  "type": "*.mjs",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=production",
@@ -13,5 +22,8 @@
   "devDependencies": {
     "webpack": "^5.97.1",
     "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
   }
 }
